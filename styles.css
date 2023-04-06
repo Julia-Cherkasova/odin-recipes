@@ -57,5 +57,26 @@ header{
     border-radius: 0.75em;
     border: 1px solid rgb(34, 33, 33);
 }
+.section_2{
+    
+    height: 16rem;
+    padding: 3em;
+    
+
+}
+.section_2 h2{
+    text-align: center;
+    margin-bottom: 2em;
+}
+.section_2 img{
+    height: 100px;
+}
+.icons{
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
 
     
