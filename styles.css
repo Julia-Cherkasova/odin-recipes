@@ -31,7 +31,7 @@ header{
     font-size: 1rem;
 }
 .section_1{
-    background-image: url("images/main_2.jpg");
+    background-image: url("images/main.jpg");
     background-size:cover;
     background-repeat: no-repeat;
     height: 34.5rem;
@@ -58,14 +58,11 @@ header{
     border: 1px solid rgb(34, 33, 33);
 }
 .section_2{
-    
     height: 16rem;
     padding: 3em;
-    
-
+    text-align: center;
 }
 .section_2 h2{
-    text-align: center;
     margin-bottom: 2em;
 }
 .section_2 img{
@@ -76,7 +73,10 @@ header{
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-around;
-    align-items: center;
+    align-items: center;  
+}
+.icons p{
+    font-size: 1rem;
 }
 
     
