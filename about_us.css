@@ -1,0 +1,102 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-color: #ffffff;
+    font-family: Merriweather, sans-serif;
+}
+header,
+footer{
+    height: 15%;
+    background-color: rgb(40, 38, 38);
+}
+footer{
+    padding:0.5em;
+}
+footer p{
+    color:whitesmoke;
+    font-size: 0.75rem;
+    text-align: center;
+}
+h1{
+    text-align: center;
+    font-family: Sacramento, sans-serif;
+    font-size: 4.1vw;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+}
+h3{
+    font-family: Sacramento, sans-serif;
+    font-size: 3.1vw;
+    text-align: center;
+    margin-top: 1.5em;
+
+}
+section{
+    padding: 2em; 
+}
+
+.nav{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0.3125em 1em 0 0;
+   }
+.nav ul{
+    height: 100%;
+}
+.nav li{
+    width:6em;
+    text-align: center;
+    list-style-type: none;
+}
+.nav a{
+    color:whitesmoke;
+    text-decoration: none;
+    font-size: 1rem;
+}
+.about_us{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+.text_about_us{
+    width:50%;
+    font-size: 1.8vw;  
+    margin-top: 5em;
+    
+}
+.image_about_us img{
+    width:50%;
+    height:auto;
+}
+.image_about_us{
+    width:50%;
+    margin-left: 3em;
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (min-width : 320px) and (max-width : 480px)
+{
+    footer{
+        margin-top: 70px;
+    }
+    footer p{
+        font-size: 2vw;
+    }
+    h3{
+        margin-top: 100px;
+    }
+    .about_us{
+        margin-top: 50px;
+    }
+    .text_about_us{
+        margin-top: 3em;
+    }
+}
+  
+    
+

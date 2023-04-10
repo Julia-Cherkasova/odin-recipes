@@ -9,7 +9,7 @@ body{
 }
 header,
 footer{
-    height: 2rem;
+    height: 30px;
     background-color: rgb(40, 38, 38);
 }
 footer{
