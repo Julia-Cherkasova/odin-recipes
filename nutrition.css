@@ -21,22 +21,16 @@ footer p{
 }
 h1{
     text-align: center;
-    font-family: Sacramento, sans-serif;
-    font-size: 4.1vw;
-    margin-top: 1.5em;
-    margin-bottom: 1.5em;
+    font-size: 2rem;
+    margin-top: 2em;
+    margin-bottom: 2em;
 }
-h3{
-    font-family: Sacramento, sans-serif;
-    font-size: 3.1vw;
-    text-align: center;
-    margin-top: 1.5em;
+img{
+   width:40%;
+   height: auto;
+   margin-bottom: 2em;
 
 }
-section{
-    padding: 2em; 
-}
-
 .nav{
     display: flex;
     justify-content: flex-end;
@@ -56,47 +50,26 @@ section{
     text-decoration: none;
     font-size: 1rem;
 }
-.about_us{
+.healthy_eating{
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: flex-start;
-}
-.text_about_us{
-    width:50%;
-    font-size: 1.8vw;  
-    margin-top: 5em;
-    
-}
-.image_about_us img{
-    width:50%;
-    height:auto;
-}
-.image_about_us{
-    width:50%;
-    margin-left: 3em;
-    display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
-
 @media screen and (min-width : 320px) and (max-width : 480px)
 {
     footer{
-        margin-top: 70px;
+        margin-top: 100px;
     }
     footer p{
         font-size: 2vw;
     }
-    h3{
-        margin-top: 100px;
+    h1{
+        font-size:1rem;
     }
-    .about_us{
-        margin-top: 50px;
-    }
-    .text_about_us{
-        margin-top: 3em;
+    img{
+        width:60%;
+        height: auto;
     }
 }
   
-    
-
